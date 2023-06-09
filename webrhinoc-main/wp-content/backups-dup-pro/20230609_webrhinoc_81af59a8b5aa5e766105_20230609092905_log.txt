@@ -1,0 +1,128 @@
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2023-06-09 09:29:16
+NOTICE: Do NOT post to public sites or forums 
+PACKAGE CREATION START
+********************************************************************************
+********************************************************************************
+VERSION:	4.0.6
+WORDPRESS:	6.2.2
+PHP INFO:	8.1.9 | SAPI: fpm-fcgi
+SERVER:		nginx/1.16.0 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	6MB
+ARCHIVE ENGINE: Shell Zip
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (query size limit - 131072 )
+
+TABLES: total: 15 | filtered:0 | create:15
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 1
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:1] wp_usermeta NUM ROWS: 24
+INSERT ROWS TABLE[INDEX:2] wp_cf7db NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:3] wp_commentmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:4] wp_comments NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:5] wp_duplicator_pro_entities NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:6] wp_duplicator_pro_packages NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:7] wp_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:8] wp_options NUM ROWS: 249
+INSERT ROWS TABLE[INDEX:9] wp_postmeta NUM ROWS: 336
+INSERT ROWS TABLE[INDEX:10] wp_posts NUM ROWS: 64
+INSERT ROWS TABLE[INDEX:11] wp_term_relationships NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:12] wp_term_taxonomy NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:13] wp_termmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:14] wp_terms NUM ROWS: 2
+SQL FILE SIZE CHECK OK, SIZE: 1448306
+SQL CREATED: 20230609_webrhinoc_81af59a8b5aa5e766105_20230609092905_database.sql
+SQL FILE SIZE: 1.38MB
+SQL FILE TIME: 2023-06-09 09:29:26
+SQL RUNTIME: 10.168 sec.
+MEMORY STACK: 6MB
+
+********************************************************************************
+ARCHIVE  Type=ZIP Mode=Shell
+********************************************************************************
+ARCHIVE DIR:  /Users/taras/Local Sites/webrhinoc/app/public
+ARCHIVE FILE: 20230609_webrhinoc_81af59a8b5aa5e766105_20230609092905_archive.zip
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	101.03MB
+STATS:	Dirs 990 | Files 9,707 | Total 10,697
+COMPRESSED SIZE: 45.73MB
+ARCHIVE RUNTIME: 3.531 sec.
+MEMORY STACK: 8MB
+[PHP ERR][ISSUE] MSG:Implicit conversion from float 48.8 to int loses precision [CODE:8192|FILE:/Users/taras/Local Sites/webrhinoc/app/public/wp-content/plugins/duplicator-pro/classes/class.password.php|LINE:165]
+CHECK FILES Array
+(
+    [0] => dup-installer/api/class.api.php
+    [1] => dup-installer/assets/index.php
+    [2] => dup-installer/classes/index.php
+    [3] => dup-installer/ctrls/index.php
+    [4] => dup-installer/src/Utils/Autoloader.php
+    [5] => dup-installer/templates/default/page-help.php
+    [6] => dup-installer/main.installer.php
+    [7] => 20230609_webrhinoc_81af59a8b5aa5e766105_20230609092905_installer-backup.php
+    [8] => dup-installer/index.php
+    [9] => dup-installer/libs/Snap/index.php
+    [10] => dup-installer/lib/config/index.php
+    [11] => dup-installer/lib/certificates/index.php
+    [12] => dup-installer/assets/js/duplicator-tooltip.js
+    [13] => dup-installer/assets/js/tippy/index.php
+    [14] => dup-installer/dup-archive__81af59a-09092905.txt
+    [15] => dup-installer/dup-scan__81af59a-09092905.json
+    [16] => dup-installer/dup-scanned-files__81af59a-09092905.txt
+    [17] => dup-installer/dup-scanned-dirs__81af59a-09092905.txt
+    [18] => dup-installer/dup-manual-extract__81af59a-09092905
+    [19] => dup-installer/dup-database__81af59a-09092905.sql
+)
+
+Executing extra count string unzip -Z1 '/Users/taras/Local Sites/webrhinoc/app/public/wp-content/backups-dup-pro/tmp/20230609_webrhinoc_81af59a8b5aa5e766105_20230609092905_archive.zip' | grep '^\(dup-installer/api/class.api.php\|dup-installer/assets/index.php\|dup-installer/classes/index.php\|dup-installer/ctrls/index.php\|dup-installer/src/Utils/Autoloader.php\|dup-installer/templates/default/page-help.php\|dup-installer/main.installer.php\|20230609_webrhinoc_81af59a8b5aa5e766105_20230609092905_installer-backup.php\|dup-installer/index.php\|dup-installer/libs/Snap/index.php\|dup-installer/lib/config/index.php\|dup-installer/lib/certificates/index.php\|dup-installer/assets/js/duplicator-tooltip.js\|dup-installer/assets/js/tippy/index.php\|dup-installer/dup-archive__81af59a-09092905.txt\|dup-installer/dup-scan__81af59a-09092905.json\|dup-installer/dup-scanned-files__81af59a-09092905.txt\|dup-installer/dup-scanned-dirs__81af59a-09092905.txt\|dup-installer/dup-manual-extract__81af59a-09092905\|dup-installer/dup-database__81af59a-09092905.sql\)' | wc -l
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+LOCAL: Default, /Users/taras/Local Sites/webrhinoc/app/public/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.38MB
+INSTALLER FILE: 71.61KB
+ARCHIVE FILE: 48.14MB 
+EXPECTED FILE/DIRECTORY COUNT: 10,697
+ACTUAL FILE/DIRECTORY COUNT: 10,699
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 23.804 sec.
+PEAK PHP MEMORY USED: 8MB
+DONE PROCESSING => 20230609_webrhinoc 2023-06-09 09:29:40
+
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** LOCAL [Name: Default] [ID: -2] **
+SUCCESS: copied to default location: /Users/taras/Local Sites/webrhinoc/app/public/wp-content/backups-dup-pro
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+STORAGE PROCESSING COMPLETED
+
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE CREATION OR MANUAL STORAGE TRANSFER END: 2023-06-09 09:29:45
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+********************************************************************************
+

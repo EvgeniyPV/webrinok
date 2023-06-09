@@ -1,0 +1,407 @@
+/*! ================================================
+ * DUPLICATOR PACKAGE STYLE
+ * Copyright:Snap Creek LLC 2015-2021
+ * ================================================ */
+
+a.disabled {
+    color: gray;
+}
+
+a.disabled:hover {
+    color: gray !important;
+    background: #e0e0e0 !important;
+}
+
+input#dpro-chk-all {
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+
+button.dpro-btn-selected {
+    border: 1px solid #000 !important;
+    background-color: #dfdfdf !important;
+}
+
+div.dpro-build-msg {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    margin: 0 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+div.dpro-build-msg button {
+    display: block;
+    margin-top: 10px !important;
+    font-weight: bold;
+}
+
+div.dpro-build-msg div.status-hdr {
+    font-size: 18px;
+    font-weight: bold
+}
+
+button.dpro-btn-stop {
+    width: 150px !important
+}
+
+.remote-data-pass {
+    position: relative;
+}
+
+.remote-data-fail {
+    position: relative;
+}
+
+.remote-data-pass:after {
+    content: attr(data-badge);
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    font-size: .5em;
+    background: #8CB9E6;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.remote-data-fail:after {
+    content: attr(data-badge);
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    font-size: .5em;
+    background: #BB1506;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+div.dpro-quick-start {
+    font-style: italic;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 15px
+}
+
+.dpro-edit-toolbar .button+.button,
+.dpro-edit-toolbar select+.button {
+    margin-left: 5px;
+}
+
+
+/*Recommeded text*/
+
+.dpro-inline-block {
+    display: inline-block;
+    float: left;
+}
+
+.dpro-recommended-clear-container {
+    clear: both;
+    padding: 10px 0;
+}
+
+
+/* Table package details */
+
+.dpro-pktbl tr {
+    height: 45px;
+}
+
+table.dpro-pktbl td.dpro-list-nopackages {
+    text-align: center;
+    padding: 50px 0 80px 0;
+    font-size: 20px
+}
+
+table.dpro-pktbl {
+    word-break: break-all;
+}
+
+table.dpro-pktbl tfoot th {
+    font-size: 12px
+}
+
+table.dpro-pktbl th {
+    white-space: nowrap !important;
+}
+
+table.dpro-pktbl input[name="delete_confirm"] {
+    margin-left: 15px
+}
+
+table.dpro-pktbl td.run {
+    border-left: 4px solid #608E64;
+}
+
+table.dpro-pktbl td.fail {
+    border-left: 4px solid maroon;
+}
+
+table.dpro-pktbl td.pass {
+    border-left: 4px solid #2ea2cc;
+}
+
+table.dpro-pktbl div#dpro-progress-bar-area {
+    width: 300px;
+    margin: 5px auto 0 auto;
+}
+
+div.dpro-paged-nav {
+    text-align: right
+}
+
+
+/* Table package rows */
+
+.dpro-pkinfo td {
+    white-space: nowrap;
+    padding: 8px 20px 10px 10px;
+    min-height: 20px;
+    vertical-align: middle
+}
+
+.dpro-pkinfo td sup {
+    font-size: 11px;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.6em;
+    font-style: italic;
+}
+
+.dpro-pkinfo td div.progress-error {
+    font-size: 13px;
+    color: #555;
+}
+
+.dpro-cursor-pointer {
+    cursor: pointer;
+}
+
+.dpro-pkinfo .get-btns {
+    text-align: center;
+    padding: 3px 8px 5px 0 !important;
+    white-space: nowrap;
+}
+
+span.dpro-store-btn-title {
+    display: inline-block;
+}
+
+.dpro-pkinfo .get-btns button {
+    padding: 0;
+    box-shadow: none;
+    margin: 2px 5px 0 0;
+    padding: 0 10px;
+}
+
+.dpro-pkinfo .get-btns-transfer {
+    text-align: center;
+    padding: 3px 8px 5px 0 !important;
+    white-space: nowrap;
+}
+
+.dpro-pkinfo .get-btns-transfer button {
+    width: 75px;
+    padding: 0;
+    margin: 2px 0 0 0;
+}
+
+.dpro-pkinfo .get-btns button.dpro-bar-menu-btn {
+    min-width: 0;
+}
+
+button.dpro-store-btn {
+    min-width: 0;
+    width: 35px !important;
+}
+
+div.dpro-pack-status-info {
+    float: left;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.dpro-pkinfo.dpro-recovery-package {
+    background-color: #EFEFEF !important;
+}
+
+.dpro-pkinfo.dpro-recovery-package td {
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+th.inst-name {
+    width: 1000px;
+    padding: 2px 7px;
+}
+
+.inst-name input {
+    width: 175px;
+    margin: 0 5px;
+    border: 1px solid #CCD0D4;
+    cursor: pointer;
+}
+
+.inst-name input:focus {
+    width: 525px;
+}
+
+
+/*Download button menu*/
+
+nav.dpro-dnload-menu {
+    display: inline-block;
+}
+
+nav.dpro-dnload-menu-items {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    padding: 7px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: #fff;
+    min-width: 125px;
+    text-align: left;
+    line-height: 30px;
+}
+
+nav.dpro-dnload-menu-items button {
+    color: inherit;
+    padding: 2px 2px 2px 8px;
+    border-color: transparent;
+    background: transparent;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 30px;
+}
+
+nav.dpro-dnload-menu-items button:hover {
+    background-color: #efefef;
+    color: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/*Hamburger button menu*/
+
+nav.dpro-bar-menu {
+    display: inline-block;
+}
+
+nav.dpro-bar-menu-items {
+    display: none;
+    margin: 0 -105px;
+    position: absolute;
+    z-index: 1000;
+    padding: 7px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: #fff;
+    min-width: 125px;
+    text-align: left;
+    line-height: 30px;
+}
+
+nav.dpro-bar-menu-items button {
+    color: inherit;
+    padding: 2px 2px 2px 8px;
+    border-color: transparent;
+    background: transparent;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 30px;
+}
+
+nav.dpro-bar-menu-items button:hover {
+    background-color: #efefef;
+    color: #FFF;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.dpro-bar-menu-items .disabled {
+    background-color: transparent !important;
+    color: #999 !important;
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+}
+
+.dpro-bar-menu-items .dpro-btn-open-recovery-box.disabled {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+nav.dpro-bar-menu button span i.fa,
+nav.dpro-bar-menu button span i.fas,
+nav.dpro-bar-menu button span i.far,
+nav.dpro-dnload-menu button span i.fa,
+nav.dpro-dnload-menu button span i.fas,
+nav.dpro-dnload-menu button span i.far {
+    display: inline-block;
+    width: 18px;
+}
+
+#btn-logs-gift {
+    background-color: #af5e52;
+    color: #fff;
+}
+
+#btn-logs-gift:hover {
+    border-color: #222;
+}
+
+
+/* Quick fix */
+
+.color-alert {
+    color: #dc3232 !important;
+}
+
+
+/* Recovery Point Dialog */
+
+div.dup-dlg-recover {
+    margin: auto;
+    margin: 50px 0 0 0;
+    padding: 2px;
+    width: 100%;
+    text-align: center
+}
+
+div.dup-dlg-recover button {
+    width: 300px;
+    height: 50px
+}
+
+div.dup-dlg-recover button small {
+    display: block;
+    padding: 0;
+    margin: -5px 0 0 0
+}
+
+div.dup-dlg-recover-choose {
+    padding: 5px
+}
+
+div.dup-dlg-recover-or {
+    margin: 15px 15px 15px 0;
+    font-size: 18px;
+    color: #999;
+    font-weight: bold
+}
+
+span.dup-dlg-recover-msg-active {
+    display: block;
+    margin: 0;
+    padding: 2px
+}

@@ -1,0 +1,58 @@
+.hero {
+  padding: 250px 0 156px 0;
+  @media (max-width: 999px) {
+    padding: 150px 0 100px 0;
+  }
+  @media (max-width: 759px) {
+    padding-top: 156px;
+    padding-bottom: 107px;
+  }
+  &-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    pointer-events: none;
+    height: 542px;
+    @media (max-width: 999px) {
+      height: 350px;
+    }
+    @media (max-width: 759px) {
+      display: none;
+    }
+    &-mob {
+      display: none;
+      @media (max-width: 759px) {
+        display: block;
+        height: auto;
+      }
+    }
+  }
+  &-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
+
+    /* 60 */
+
+    color: #1F1340;
+    @media (max-width: 999px) {
+      font-size: 40px;
+    }
+    @media (max-width: 759px) {
+      font-size: 32px;
+      line-height: 35px;
+    }
+    b {
+      color: #5D3ABF;
+      font-weight: 600;
+      display: block;
+      @media (max-width: 759px) {
+        display: inline;
+      }
+    }
+  }
+}
